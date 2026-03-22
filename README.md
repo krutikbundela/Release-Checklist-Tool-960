@@ -1,4 +1,4 @@
-# ReleaseCheck ✅
+# Release Checklist Tool
 
 A full-stack release checklist application to track and manage software releases. Built with React, Redux Toolkit, Material UI on the frontend and Express, TypeScript, TypeORM, and PostgreSQL on the backend.
 
