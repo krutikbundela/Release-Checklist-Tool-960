@@ -36,19 +36,18 @@ A full-stack release checklist application to track and manage software releases
 - **TypeORM** — robust Object-Relational Mapping (ORM)
 - **Zod** — strictly-typed environment variable validation (`env.ts`)
 - **Helmet & Rate Limit** — pre-configured security headers and DDoS protection
-- **ts-node-dev** — auto-reloading dev server
 
 ---
 
 ## Features
 
-- 📋 Create, view, edit, and delete releases
-- ✅ 7-step release checklist with auto-computed status (`Planned` → `Ongoing` → `Done`)
-- 📝 Additional remarks / notes per release
-- 🔄 Loading indicators on save and create actions
-- 🎨 Clean, modern UI with purple accent theme
-- 🔐 Production-ready security (CORS isolation, Helmet, Rate Limiter)
-- 🐳 Dockerized backend for instant local PostgreSQL setup
+- Create, view, edit, and delete releases
+- 7-step release checklist with auto-computed status (`Planned` → `Ongoing` → `Done`)
+- Additional remarks / notes per release
+- Loading indicators on save and create actions
+- Clean, modern UI with purple accent theme
+- Production-ready security (CORS isolation, Helmet, Rate Limiter)
+- Dockerized backend for instant local PostgreSQL setup
 
 ---
 
@@ -176,9 +175,3 @@ export class Release {
   created_at!: Date;
 }
 ```
-
----
-
-## License
-
-MIT
