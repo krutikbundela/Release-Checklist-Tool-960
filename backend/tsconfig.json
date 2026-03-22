@@ -9,9 +9,7 @@
     "outDir": "./dist",
     "rootDir": "./",
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true
+    "emitDecoratorMetadata": true
   },
   "include": [
     "./**/*.ts"
